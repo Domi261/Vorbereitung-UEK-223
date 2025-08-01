@@ -1,5 +1,7 @@
-GET https://api.restful-api.dev/objects
 
+
+# @no-redirect 
+GET https://api.restful-api.dev/objects
 ####
 
 POST https://api.restful-api.dev/objects
@@ -14,7 +16,6 @@ Content-Type: application/json
       "Hard disk size": "1 TB"
    }
 }
-
 ###
 
 PUT https://api.restful-api.dev/objects/ff8081819782e69e0198620e1aae43d3   
@@ -29,7 +30,6 @@ Content-Type: application/json
       "Hard disk size": "1 TB"
    }
 }
-
 ###
 
 PATCH https://api.restful-api.dev/objects/ff8081819782e69e0198621ba3e14405
@@ -44,6 +44,5 @@ Content-Type: application/json
       "Hard disk size": "1 TB"
    }
 }
-
 ###
 DELETE  https://api.restful-api.dev/objects/ff8081819782e69e0198621ba3e14405
