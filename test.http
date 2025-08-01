@@ -1,6 +1,3 @@
-
-
-# @no-redirect 
 GET https://api.restful-api.dev/objects
 ####
 
@@ -46,3 +43,7 @@ Content-Type: application/json
 }
 ###
 DELETE  https://api.restful-api.dev/objects/ff8081819782e69e0198621ba3e14405
+###
+
+# @no-redirect 
+GET https://git.bbcag.ch/
